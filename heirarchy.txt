@@ -1,0 +1,6 @@
+1.package listing
+2.file handling + backend plan + test
+3.main file + check both package with file handle
+4.comlete implementation
+5.front end design + backend link ( if possible)
+6.better file organsition and clone of project on other system

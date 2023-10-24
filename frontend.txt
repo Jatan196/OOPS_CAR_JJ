@@ -1,0 +1,3 @@
+landing page
+sign as empoylye/customer ->redirectd single files packages respective
+employee-> user id password login , matching function /object matching 
