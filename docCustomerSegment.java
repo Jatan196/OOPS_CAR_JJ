@@ -3,6 +3,7 @@
 
 import java.lang.String;
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 interface carPart {
     // ATTRIBUTES
@@ -292,16 +293,8 @@ class car {
 
 public class docCustomerSegment {
     public static void main(String[] args) {
-        // // pricing paisa;
-        // timing tame = new timing();
-        // pricing paisa = new pricing();
-        // paisa.defaultCarPrice();
-        //
-        // tame.defaultCarTime();
-        //
 
         displayer dsp = new displayer();
-        // if (dsp.customised()) {
 
         corePart COP = new corePart(dsp.gradeAux, dsp.corePartSegment);
         interior INT = new interior(dsp.intLook);
@@ -310,39 +303,21 @@ public class docCustomerSegment {
 
         // OPERATION ON DATA
         timing tame = new timing();
-
-        tame.defaultCarTime();
-        tame.customisedCarTime(jatan);
-        System.out.println(tame.timeReq + " Hours are estimated to deliver you product");
-
         pricing paisa = new pricing();
 
+        tame.defaultCarTime();
         paisa.defaultCarPrice();
-        paisa.customisedCarPrice(jatan);
-        System.out.println(paisa.priceReq + " Lakhs will charged as per you customisation");
+        if (dsp.check) {
+            tame.customisedCarTime(jatan);
+            paisa.customisedCarPrice(jatan);
+        }
 
-        // }
+        // Creating a DecimalFormat object with the desired format pattern
+        DecimalFormat df = new DecimalFormat("##,##,##,##,###");
 
-        // else {
-        // // FOR DEFAULT CARS
-
-        // // corePart COP = new corePart();
-        // // interior INT = new interior();
-        // // auxillaryPart AXP = new auxillaryPart();
-        // // car jatan = new car(COP, AXP, INT);
-
-        // timing tame = new timing();
-
-        // tame.defaultCarTime();
-        // System.out.println(tame.timeReq + " Hours are estimated to deliver you
-        // product");
-
-        // pricing paisa = new pricing();
-
-        // paisa.defaultCarPrice();
-        // System.out.println(paisa.priceReq + " Lakhs will charged for Default Car
-        // Model");
-        // }
+        String formattedNumber = df.format(paisa.priceReq);
+        System.out.println(tame.timeReq + " Hrs will be taken to ready you product");
+        System.out.println(formattedNumber + " Lakhs will add upto your cost as per you customisation");
 
     }
 }
@@ -385,17 +360,7 @@ class setter {
         }
 
     }
-    // public String setterCall(String choice1) {
-    // String ans = partSet.get(choice1);
 
-    // return "";
-    // }
-
-    // public String setterCallInt(String choice1) {
-    // // String ans = intLookSet.get(choice1);
-
-    // return "";
-    // }
 }
 
 class displayer {
@@ -407,11 +372,15 @@ class displayer {
 
     String intLook = "CLASSIC";
     Scanner sc = new Scanner(System.in);
+    boolean check = false;
 
     boolean customised() {
-        System.out.println("Now you can go for customisation of all above functionalities by pressing C");
+
+        System.out.println(
+                "Now you can go for customisation of all above functionalities by pressing C  OR Enter N for next customisation");
         char c = sc.next().charAt(0);
         if (c == 'C') {
+            check = true;
             return true;
         }
 
@@ -570,9 +539,9 @@ class displayer {
     }
 
     void choiceDisplay() {
-        System.out.println("You can for SUV segment for this parts by entering *** ");
-        System.out.println("You can for AVERAGE segment for this parts by entering ** ");
-        System.out.println("You can for HATCHBACK segment for this parts by entering * ");
+        System.out.println("You can for SUV segment for this parts by entering --> *** ");
+        System.out.println("You can for AVERAGE segment for this parts by entering --> ** ");
+        System.out.println("You can for HATCHBACK segment for this parts by entering --> * ");
     }
 
     // Helper method to display interior specifications.
@@ -590,6 +559,7 @@ class displayer {
                 "- Grade B: Grade B equipment offers a balance between quality and cost-effectiveness, making it a cost-efficient choice without compromising essential performance.");
         System.out.println(
                 "- Grade C: Choose grade C when budget constraints are a primary concern. While grade C parts are more budget-friendly, they may sacrifice some performance and durability.");
+        System.out.println("Enter grade accordingly --> A OR B OR C");
     }
 
     displayer() {
@@ -597,7 +567,7 @@ class displayer {
         setter st = new setter();
 
         // For Core Part
-        System.out.println("To have look on specification for CORE PARTS press B for Brochure");
+        System.out.println("To have look on specification for CORE PARTS press B for Brochure or can press N for next");
 
         char c = sc.next().charAt(0);
         copBrochure(c);
@@ -621,7 +591,8 @@ class displayer {
         }
 
         // For Auxillary Part
-        System.out.println("To have look on specification for AUXILLARY PARTS press B for Brochure");
+        System.out.println(
+                "To have look on specification for AUXILLARY PARTS press B for Brochure or can press N for next");
         char c1 = sc.next().charAt(0);
         axpBrochure(c1);
         System.out.println(
@@ -643,7 +614,8 @@ class displayer {
         }
 
         // For Interior Look
-        System.out.println("To have look on specification for INTERIOR LOOK press B for Brochure");
+        System.out.println(
+                "To have look on specification for INTERIOR LOOK press B for Brochure or can press N for next");
         char c2 = sc.next().charAt(0);
         intLookBrochure(c2);
         System.out.println(
@@ -651,9 +623,9 @@ class displayer {
 
         flag = customised();
         if (flag) {
-            System.out.println("You can for VOLVO segment for this parts by entering *** ");
-            System.out.println("You can for ROLLS ROYCE segment for this parts by entering ** ");
-            System.out.println("You can for CLASSIC segment for this parts by entering * ");
+            System.out.println("You can go for VOLVO segment for this parts by entering *** ");
+            System.out.println("You can go for ROLLS ROYCE segment for this parts by entering ** ");
+            System.out.println("You can go for CLASSIC segment for this parts by entering * ");
 
             String choice3 = sc.next();
             this.intLook = st.lookSet(choice3);
