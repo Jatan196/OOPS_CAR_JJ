@@ -1,50 +1,84 @@
-JJ1542023E01
-passe@101
-Kunal Patel
-Design
+JJ1542023M01
+passm@101
+Darshan Vishwas
+Production
 01/01/2001
-01/09/2021
-215 Chhoti Gwaltoli, Indore
-9578435269
-patel@gmail.com
-78344856
-353269871254
+11/09/2022
+519 Pardesipura, Indore
+7978435269
+Kushvaha@gmail.com
+12344856
+453269871254
 24
 12
 0
-Improve the designing of ventilator
-0.85
+Increase the production efficiency by 5 percent
+4
 
-JJ1542023E02
-passe@102
-Vikash Raghuvanshi
-Automation
-06/01/2001
+JJ1542023M02
+passm@102
+Darunkash Raghuvanshi
+Accounts
+06/02/2001
 12/12/2022
 815 Palasia, Indore
 8078435269
-patel@gmail.com
+jay@gmail.com
 12344856
 453269871254
-24
-16
+25
+11
 1
-Finish the task of automating airbag system
-0.87
+Prepare the record of all the sales done in the financial year 2021-2022
+3
 
-JJ1542023E03
-passe@103
-Vikash Raghuvanshimmm
-Automation
-06/01/2001
-12/12/2022
-815 Palasia, Indore
-8078435269
-patel@gmail.com
-12344856
-453269871254
+JJ1542023M03
+passm@103
+Lokesh Chouhan
+Human Resources
+11/03/2001
+10/01/2022
+645 Choithram, Indore
+8452435269
+harish@gmail.com
+87544856
+021469871254
 24
-12
+11
 1
-Finish the task of automating airbag system
-0.87
+Prepare a salary increment plan for all the workers as per their production capability
+1
+
+JJ1542023M04
+passm@104
+Lakhanlal Parmar
+Quality
+16/04/2001
+10/12/2020
+Vishwass Nagar
+6252435269
+harioomsh@gmail.com
+00544856
+078969871254
+26
+10
+2
+Work upon the complaints received regarding quality from customers in the previous month
+5
+
+JJ1542023M05
+passm@105
+Varun Kohli
+External Affairs
+21/05/2001
+10/01/2022
+645 Choithram, Indore
+8452435269
+harish@gmail.com
+87544856
+021469871254
+24
+11
+1
+Finalise the deals done with our partners and prepare a report of the same
+3
