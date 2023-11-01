@@ -1,0 +1,50 @@
+JJ1542023S01
+passs@101
+Kunal Sharma
+Designing
+01/01/2001
+11/09/2022
+519 Pardesipura, Indore
+7978435269
+Kushvaha@gmail.com
+12344856
+453269871254
+24
+12
+0
+Provide designs for new SUV models
+4
+
+JJ1542023S02
+passs@102
+Arti Mandal
+Gear
+06/02/2001
+22/01/2021
+112 Geeta Bhavan, Indore
+9125435269
+mandal@gmail.com
+04744856
+313269870638
+26
+11
+1
+Produce 110,000 gear boxes
+5
+
+JJ1542023S03
+passs@103
+Manish Pandya
+Production
+11/03/2001
+11/09/2022
+512 Palasiya, Indore
+7978435269
+manisha@gmail.com
+54236895
+453269871254
+23
+12
+0
+Increase the production efficiency by 5 percent
+2

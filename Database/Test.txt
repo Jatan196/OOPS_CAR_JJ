@@ -1,0 +1,50 @@
+JJ1542023E01
+passe@101
+Kunal Patel
+Design
+01/01/2001
+01/09/2021
+215 Chhoti Gwaltoli, Indore
+9578435269
+patel@gmail.com
+78344856
+353269871254
+24
+12
+0
+Improve the designing of ventilator
+0.85
+
+JJ1542023E02
+passe@102
+Vikash Raghuvanshi
+Automation
+06/01/2001
+12/12/2022
+815 Palasia, Indore
+8078435269
+patel@gmail.com
+12344856
+453269871254
+24
+16
+1
+Finish the task of automating airbag system
+0.87
+
+JJ1542023E03
+passe@103
+Vikash Raghuvanshimmm
+Automation
+06/01/2001
+12/12/2022
+815 Palasia, Indore
+8078435269
+patel@gmail.com
+12344856
+453269871254
+24
+12
+1
+Finish the task of automating airbag system
+0.87

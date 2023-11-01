@@ -1,0 +1,50 @@
+JJ1542023W01
+passw@101
+Ankush Jaiswal
+Drilling
+01/01/2001
+28/01/2022
+110 Govind Nagar, Bhopal
+8563214568
+ankushjj@gmail.com
+23587056
+123269871200
+26
+11
+1
+Make new drill bits with greater accuracy
+2
+
+JJ1542023W01
+passw@102
+Kunal Sharma
+Painting
+06/02/2001
+11/09/2022
+519 Pardesipura, Indore
+7978435269
+Kushvaha@gmail.com
+12344856
+453269871254
+24
+12
+0
+Paint 100 SUV cars
+4
+
+JJ1542023W02
+passw@102
+Ayushi Gurjar
+Gear
+06/02/2001
+22/01/2021
+112 Geeta Bhavan, Indore
+9125435269
+mandal@gmail.com
+04744856
+313269870638
+23
+11
+1
+Produce 10,000 gear boxes
+5
